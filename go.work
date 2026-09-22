@@ -2,4 +2,5 @@ go 1.27.1
 
 use (
 	./uppgift
+	./uppgift/driver/pgx
 )

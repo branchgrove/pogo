@@ -1,0 +1,20 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    schema: "migrations"
+    queries: "internal/sqlc/queries"
+    gen:
+      go:
+        package: "sqlc"
+        out: "internal/sqlc"
+        sql_package: "pgx/v5"
+        overrides:
+          - column: "uppgift.jobs.run_at"
+            go_type: "time.Time"
+          - column: "uppgift.jobs.enqueued_at"
+            go_type: "time.Time"
+          - column: "uppgift.jobs.attributes"
+            go_type:
+              import: "github.com/branchgrove/pogo/uppgift/driver/pgx/internal/types"
+              type: "Attributes"
+              pointer: false
