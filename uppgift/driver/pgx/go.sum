@@ -1,5 +1,5 @@
-github.com/branchgrove/pogo/uppgift v0.0.0-20260925202041-d3e512e83ba8 h1:F9a9HZj2prpQJcdTaP9XMIEnrNg1q23soNFAFEnHdcs=
-github.com/branchgrove/pogo/uppgift v0.0.0-20260925202041-d3e512e83ba8/go.mod h1:i99Ns31Acfr1ODmIcd1BfSOosPBZVtEJ50AWq72J89s=
+github.com/branchgrove/pogo/uppgift v0.1.0 h1:CjcGEhxWGmFPPrTOxQkZ6+K6glXFJwLh2nmps7MQGWA=
+github.com/branchgrove/pogo/uppgift v0.1.0/go.mod h1:i99Ns31Acfr1ODmIcd1BfSOosPBZVtEJ50AWq72J89s=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=
 github.com/dustin/go-humanize v1.0.1/go.mod h1:Mu1zIs6XwVuF/gI1OepvI0qD18qycQx+mFykh5fBlto=
